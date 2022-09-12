@@ -1,0 +1,43 @@
+.product-addBtn {
+    
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    background-color:teal;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.productList {
+    flex: 4;
+}
+
+.productList-item {
+    display: flex;
+    align-items: center;
+}
+
+.productList-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.productList-edit {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.productList-delete {
+    color: red;
+    cursor: pointer;
+}
